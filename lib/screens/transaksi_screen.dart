@@ -3,7 +3,7 @@ import '../widgets/app_drawer.dart';
 import '../models/warnet.dart';
 
 class TransaksiScreen extends StatefulWidget {
-  const TransaksiScreen({Key? key}) : super(key: key);
+  const TransaksiScreen({super.key});
 
   @override
   State<TransaksiScreen> createState() => _TransaksiScreenState();

@@ -3,7 +3,7 @@ import '../widgets/app_drawer.dart';
 import '../models/pelanggan.dart';
 
 class PelangganScreen extends StatefulWidget {
-  const PelangganScreen({Key? key}) : super(key: key);
+  const PelangganScreen({super.key});
 
   @override
   State<PelangganScreen> createState() => _PelangganScreenState();

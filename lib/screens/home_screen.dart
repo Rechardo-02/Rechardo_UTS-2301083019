@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Warnet Afdil'),
+        title: const Text('Warnet Rechardo'),
       ),
       drawer: const AppDrawer(),
       body: const Center(
@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
             // Hapus ikon
             SizedBox(height: 16),
             Text(
-              'Selamat Datang di Warnet Afdil',
+              'Selamat Datang di Warnet Rechardo',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,

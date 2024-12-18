@@ -1,6 +1,4 @@
-// Plugin management configuration
 pluginManagement {
-    // Define the Flutter SDK path from local.properties
     def flutterSdkPath = {
         def properties = new Properties()
         file("local.properties").withInputStream { properties.load(it) }
@@ -9,10 +7,8 @@ pluginManagement {
         return flutterSdkPath
     }()
 
-    // Include Flutter tools Gradle scripts
     includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
 
-    // Define repositories for plugins
     repositories {
         google()
         mavenCentral()
@@ -20,12 +16,11 @@ pluginManagement {
     }
 }
 
-// Apply plugins
 plugins {
     id "dev.flutter.flutter-plugin-loader" version "1.0.0"
     id "com.android.application" version "7.3.0" apply false
     id "org.jetbrains.kotlin.android" version "1.7.10" apply false
 }
 
-// Include the app module
+
 include ":app"

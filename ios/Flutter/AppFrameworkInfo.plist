@@ -2,24 +2,41 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <!-- Localization and app details -->
   <key>CFBundleDevelopmentRegion</key>
   <string>en</string>
+
+  <!-- Executable name -->
   <key>CFBundleExecutable</key>
   <string>App</string>
+
+  <!-- App bundle identifier -->
   <key>CFBundleIdentifier</key>
   <string>io.flutter.flutter.app</string>
+
+  <!-- Info dictionary version -->
   <key>CFBundleInfoDictionaryVersion</key>
   <string>6.0</string>
+
+  <!-- App name -->
   <key>CFBundleName</key>
   <string>App</string>
+
+  <!-- Framework type -->
   <key>CFBundlePackageType</key>
   <string>FMWK</string>
+
+  <!-- Versioning information -->
   <key>CFBundleShortVersionString</key>
   <string>1.0</string>
-  <key>CFBundleSignature</key>
-  <string>????</string>
   <key>CFBundleVersion</key>
   <string>1.0</string>
+
+  <!-- Signature (placeholder for now) -->
+  <key>CFBundleSignature</key>
+  <string>????</string>
+
+  <!-- Minimum OS version -->
   <key>MinimumOSVersion</key>
   <string>12.0</string>
 </dict>

@@ -2,7 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDEDidComputeMac32BitWarning</key>
-	<true/>
+    <!-- Key indicating if a 32-bit warning for macOS has been computed -->
+    <key>IDEDidComputeMac32BitWarning</key>
+    <true/>
 </dict>
 </plist>

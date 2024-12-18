@@ -1,3 +1,4 @@
+// Repositories configuration
 allprojects {
     repositories {
         google()
@@ -5,14 +6,20 @@ allprojects {
     }
 }
 
+// Root project build directory
 rootProject.buildDir = "../build"
+
+// Subproject build directories
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
 }
+
+// Ensure evaluation order for app module
 subprojects {
     project.evaluationDependsOn(":app")
 }
 
+// Clean task definition
 tasks.register("clean", Delete) {
-    delete rootProject.buildDir
+    delete(rootProject.buildDir)
 }

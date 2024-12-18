@@ -1,1 +1,5 @@
 #include "Generated.xcconfig"
+
+// Custom configurations
+PRODUCT_NAME = MyApp
+CODE_SIGN_STYLE = Automatic
